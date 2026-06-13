@@ -35,17 +35,18 @@ python3 -m http.server 8000
 
 ## Deploy (GitHub Pages)
 
-1. Create a repository on GitHub named **`po8onthetrack.github.io`**.
+1. Create a repository on GitHub named **`harry-website`**.
 2. From this folder:
    ```bash
    git init
    git add .
    git commit -m "Initial portfolio"
    git branch -M main
-   git remote add origin https://github.com/po8onthetrack/po8onthetrack.github.io.git
+   git remote add origin https://github.com/po8onthetrack/harry-website.git
    git push -u origin main
    ```
-3. Your site goes live at **`https://po8onthetrack.github.io`** within a minute.
+3. In the repo's **Settings → Pages**, set the source to the `main` branch.
+4. Your site goes live at **`https://po8onthetrack.github.io/harry-website/`** within a minute.
 
 To update the site later, just edit a file and:
 ```bash
