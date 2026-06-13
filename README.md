@@ -10,7 +10,8 @@ JavaScript — no build step required.
 | `index.html` | All page content (text, sections, links) |
 | `styles.css` | Styling and the light/dark theme |
 | `script.js` | Theme toggle, mobile menu, scroll animations |
-| `Harry_Zhang_resume.pdf` | Résumé served for download |
+| `resume.tex` | Résumé source (LaTeX) |
+| `resume.pdf` | Compiled résumé served for download (run `pdflatex resume.tex`) |
 
 ## Editing
 
